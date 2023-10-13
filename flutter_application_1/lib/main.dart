@@ -12,14 +12,26 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "William Hidayat",
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: Scaffold(
+      home: FirstScreen(
+      ),
+    );
+  }
+
+
+}
+
+class FirstScreen extends StatelessWidget {
+  const FirstScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
         appBar: AppBar(
-          title: const Text("William"),
+          title: const Text("WIlliam Hidayat"),
         ),
         body: const Center(
-          child: Text("Halo 2226250035"),
+          child: Text("Halo William"),
         ),
-      ),
     );
   }
 }
