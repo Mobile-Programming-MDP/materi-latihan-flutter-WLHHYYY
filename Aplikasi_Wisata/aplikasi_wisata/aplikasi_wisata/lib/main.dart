@@ -1,3 +1,4 @@
+import 'package:aplikasi_wisata/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'data/candi_data.dart';
 import 'models/candi.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: DetailScreen(candi: candiList[0]),
+      home: ProfileScreen(),
     );
   }
 }
