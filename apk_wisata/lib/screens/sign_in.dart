@@ -76,7 +76,10 @@ class SignInScrenn extends StatelessWidget {
                             color: Colors.blue,
                             decoration: TextDecoration.underline,
                             fontSize: 16),
-                        recognizer: TapGestureRecognizer()..onTap = () {},
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            Navigator.pushNamed(context, '/signup');
+                          },
                       )
                     ]),
               )

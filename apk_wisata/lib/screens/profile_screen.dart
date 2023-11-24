@@ -14,6 +14,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
   String userName = 'umar';
   int favoriteCandiCount = 2;
 
+  void signIn() {
+    Navigator.pushNamed(context, '/signin');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
