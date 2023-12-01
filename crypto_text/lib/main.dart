@@ -251,12 +251,6 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
-
-
-
-
-
-
 // class CryptoText extends StatelessWidget {
 //   const CryptoText({super.key});
 
@@ -288,7 +282,7 @@ class HomeScreen extends StatelessWidget {
 //   String _decryptedText = '';
 //   String? _errorText;
 //   bool _isDecryptButtonEnabled = false;
-  
+
 //   @override
 //   Widget build(BuildContext context) {
 //     return Scaffold(
@@ -353,7 +347,7 @@ class HomeScreen extends StatelessWidget {
 //     _isde
 //   }
 //  }
- 
+
 // void _encryptText(String text) {
 //  try {
 //  if (text.isNotEmpty) {
@@ -384,4 +378,3 @@ class HomeScreen extends StatelessWidget {
 //  print('Error decrypting text: $e, stackTrace: $stackTrace');
 //  }
 //  }
-
