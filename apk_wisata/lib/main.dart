@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
       // home: HomeScreen(),
       // home: DetailScreen(candi: candiList[0]),
       // home: MainScreen(),
-      home: SignUpScreen(),
+      home: MainScreen (),
       initialRoute: '/',
       routes: {
         '/homescreen': (context) => const HomeScreen(),
@@ -62,7 +62,7 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   // TODO: 1. Deklarasikan variabel
-  int _currentIndex = 0 ;
+  int _currentIndex = 0;
   final List<Widget> _children = [
     HomeScreen(),
     SearchScreen(),
